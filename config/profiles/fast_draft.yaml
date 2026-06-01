@@ -1,0 +1,45 @@
+# fast_draft — V2.4: minimal preprocessing for speed (no new operations)
+profile_id: fast_draft
+
+preprocessing:
+  denoise: false
+  denoise_strategy: "none"
+  adaptive_denoise: false
+  blur_safe_mode: false
+
+  deskew: false
+
+  sharpen: false
+  sharpen_strength: 0.3
+
+  clahe_clip_limit: 1.0
+
+  thresholding: false
+  threshold_mode: "otsu"
+  adaptive_block_size: 31
+  adaptive_C: 10
+
+  morphology_opening: false
+  morphology_kernel_size: 2
+  morphology_closing: false
+
+  resize_scale: 1.0
+  perspective_correction: false
+
+layout:
+  model: "layoutlmv3"
+  confidence_threshold: 0.5
+
+ocr:
+  device: "cpu"
+  language: "en"
+  batch_size: 8
+
+postprocess:
+  confidence_threshold: 0.5
+  grammar_correction: false
+  merge_paragraphs: false
+
+export:
+  formats: ["json"]
+  output_directory: "./data/output"

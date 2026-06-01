@@ -1,0 +1,119 @@
+############################################
+# 🧠 Python Environment
+############################################
+venv/
+env/
+ENV/
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+############################################
+# 🧠 IDE / Editor Files
+############################################
+.vscode/
+.idea/
+*.code-workspace
+
+############################################
+# 🧠 OS Files
+############################################
+.DS_Store
+Thumbs.db
+
+############################################
+# 🧠 Logs & Debug Output
+############################################
+*.log
+logs/
+debug/
+trace/
+
+############################################
+# 🧠 Database / Local Storage
+############################################
+*.sqlite3
+*.db
+
+############################################
+# 🧠 ML / OCR Models & Weights
+# (VERY IMPORTANT for your project)
+############################################
+models/
+weights/
+checkpoints/
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+############################################
+# 🧠 PaddleOCR / Torch / HF caches
+############################################
+.cache/
+.huggingface/
+torch/
+paddle/
+
+############################################
+# 🧠 Pipeline Outputs (M6 Export System)
+############################################
+output/
+outputs/
+results/
+export/
+exports/
+generated/
+dist/
+
+# Exported documents (your system-specific)
+exported_document.*
+export_midsrollno*.txt
+*.pdf.txt
+
+############################################
+# 🧠 Temporary Processing Data
+############################################
+temp/
+tmp/
+processing/
+intermediate/
+test_doc/
+
+# Image pipeline temp artifacts
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+############################################
+# 🧠 Figma / Design / UI artifacts (if exported)
+############################################
+*.fig
+*.sketch
+
+############################################
+# 🧠 Jupyter (if used for testing OCR)
+############################################
+.ipynb_checkpoints/
+
+############################################
+# 🧠 Build / Packaging (future-proof)
+############################################
+build/
+dist/
+*.spec
+
+############################################
+# 🧠 Git merge / backup junk
+############################################
+*.orig
+*.rej
+*.BACKUP.*
+

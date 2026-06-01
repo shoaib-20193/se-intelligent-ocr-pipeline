@@ -1,0 +1,1 @@
+# Adapter __init__

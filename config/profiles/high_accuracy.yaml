@@ -1,0 +1,45 @@
+# high_accuracy — V2.4: balanced OCR enhancement for clean printed documents
+profile_id: high_accuracy
+
+preprocessing:
+  denoise: true
+  denoise_strategy: "nlmeans"
+  adaptive_denoise: true
+  blur_safe_mode: false
+
+  deskew: true
+
+  sharpen: false                      # not needed for clean scans
+  sharpen_strength: 0.3
+
+  clahe_clip_limit: 2.0
+
+  thresholding: true
+  threshold_mode: "otsu"
+  adaptive_block_size: 31             # unused (otsu mode)
+  adaptive_C: 10                      # unused (otsu mode)
+
+  morphology_opening: false
+  morphology_kernel_size: 2
+  morphology_closing: false
+
+  resize_scale: 1.0
+  perspective_correction: true
+
+layout:
+  model: "layoutlmv3"
+  confidence_threshold: 0.7
+
+ocr:
+  device: "cpu"
+  language: "en"
+  batch_size: 8
+
+postprocess:
+  confidence_threshold: 0.7
+  grammar_correction: true
+  merge_paragraphs: true
+
+export:
+  formats: ["json", "docx"]
+  output_directory: "./data/output"

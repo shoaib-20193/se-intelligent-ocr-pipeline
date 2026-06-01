@@ -1,0 +1,8 @@
+# logging.yaml — Logging system configuration
+# See agents.md §EXECUTION_ENGINE — Stage Logging
+
+log_level: "INFO"              # DEBUG | INFO | WARNING | ERROR
+log_format: "json"             # json | text
+log_directory: "./logs"
+rotate_logs: true
+max_log_size_mb: 50

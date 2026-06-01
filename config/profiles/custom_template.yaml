@@ -1,0 +1,27 @@
+# custom_template.yaml — ProfileConfig template for custom profiles
+# See agents.md §CONFIGURATION_SCHEMA
+
+profile_id: "custom"
+preprocessing:
+  denoise: false
+  deskew: false
+  thresholding: false
+  resize_scale: 1.0
+  perspective_correction: false
+layout:
+  model: "LayoutLMv3"          # options: LayoutLMv3 | Detectron2
+  confidence_threshold: 0.5
+ocr:
+  device: "cpu"                # options: cpu | gpu
+  language: "en"               # options: en | ur | ar
+  batch_size: 8
+postprocess:
+  confidence_threshold: 0.5
+  grammar_correction: false
+  merge_paragraphs: false
+export:
+  formats: ["json"]
+  output_directory: "./data/output"
+input_constraints:
+  max_pages: 50
+  max_file_size_mb: 100

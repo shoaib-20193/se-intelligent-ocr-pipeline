@@ -1,0 +1,186 @@
+                         
+Python 3.12.10
+
+Name: PyQt6
+Version: 6.11.0
+Summary: Python bindings for the Qt cross platform application toolkit
+Home-page: https://www.riverbankcomputing.com/software/pyqt/
+Author: 
+Author-email: Riverbank Computing Limited <info@riverbankcomputing.com>
+License-Expression: GPL-3.0-only
+Location: D:\study\sem2\ISE\SE_project\venv\Lib\site-packages
+Requires: PyQt6-Qt6, PyQt6-sip
+Required-by: 
+
+opencv 4.6.0
+numpy 1.26.4
+torch2.11.0+cpu
+paddleocr 2.7.3
+                     
+Name: python-docx
+Version: 1.2.0
+Summary: Create, read, and update Microsoft Word .docx files.
+Home-page: https://github.com/python-openxml/python-docx
+Author:
+Author-email: Steve Canny <stcanny@gmail.com>
+License: MIT
+Location: D:\study\sem2\ISE\SE_project\venv\Lib\site-packages
+Requires: lxml, typing_extensions
+Required-by: paddleocr, pdf2docx
+
+Name: reportlab
+Version: 4.5.1
+Summary: The Reportlab Toolkit
+Home-page: https://www.reportlab.com/
+Author: Andy Robinson, Robin Becker, the ReportLab team and the community
+Author-email: reportlab-users@lists2.reportlab.com
+License: BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.
+Location: D:\study\sem2\ISE\SE_project\venv\Lib\site-packages
+Requires: charset-normalizer, pillow
+Required-by:
+   
+Name: openpyxl
+Version: 3.1.5
+Summary: A Python library to read/write Excel 2010 xlsx/xlsm files
+Home-page: https://openpyxl.readthedocs.io
+Author: See AUTHORS
+Author-email: charlie.clark@clark-consulting.eu
+License: MIT
+Location: D:\study\sem2\ISE\SE_project\venv\Lib\site-packages
+Requires: et-xmlfile
+Required-by: paddleocr
+pip list                                  
+Package                Version
+---------------------- -----------
+aistudio-sdk           0.3.8
+annotated-doc          0.0.4
+annotated-types        0.7.0
+anyascii               0.3.3
+anyio                  4.13.0
+astor                  0.8.1
+attrdict               2.0.1
+babel                  2.18.0
+bce-python-sdk         0.9.71
+beautifulsoup4         4.14.3
+blinker                1.9.0
+cachetools             7.1.4
+certifi                2026.5.20
+chardet                7.4.3
+charset-normalizer     3.4.7
+click                  8.4.1
+colorama               0.4.6
+colorlog               6.10.1
+contourpy              1.3.3
+crc32c                 2.8
+cssselect              1.4.0
+cssutils               2.15.0
+cycler                 0.12.1
+Cython                 3.2.5
+decorator              5.3.1
+defusedxml             0.7.1
+encutils               1.0.0
+et_xmlfile             2.0.0
+filelock               3.29.0
+fire                   0.7.1
+Flask                  3.1.3
+flask-babel            4.0.0
+fonttools              4.63.0
+fsspec                 2026.4.0
+future                 1.0.0
+h11                    0.16.0
+h5py                   3.16.0
+hf-xet                 1.5.0
+httpcore               1.0.9
+httpx                  0.28.1
+huggingface_hub        1.14.0
+idna                   3.17
+ImageIO                2.37.3
+imagesize              2.0.0
+imgaug                 0.4.0
+iniconfig              2.3.0
+itsdangerous           2.2.0
+Jinja2                 3.1.6
+kiwisolver             1.5.0
+langdetect             1.0.9
+lazy-loader            0.5
+lmdb                   2.2.0
+lxml                   6.1.1
+markdown-it-py         4.2.0
+MarkupSafe             3.0.3
+matplotlib             3.10.9
+mdurl                  0.1.2
+ml_dtypes              0.5.4
+modelscope             1.37.1
+more-itertools         11.1.0
+mpmath                 1.3.0
+networkx               3.6.1
+numpy                  1.26.4
+onnx                   1.21.0
+opencv-contrib-python  4.6.0.66
+opencv-python          4.6.0.66
+opencv-python-headless 4.11.0.86
+openpyxl               3.1.5
+opt-einsum             3.3.0
+packaging              26.2
+paddleocr              2.7.3
+paddlepaddle           2.6.2
+pandas                 3.0.3
+pdf2docx               0.5.13
+pillow                 12.2.0
+pip                    26.1.1
+pluggy                 1.6.0
+premailer              3.10.0
+prettytable            3.17.0
+protobuf               3.20.2
+psutil                 7.2.2
+py-cpuinfo             9.0.0
+pyclipper              1.4.0
+pycryptodome           3.23.0
+pydantic               2.13.4
+pydantic_core          2.46.4
+Pygments               2.20.0
+PyMuPDF                1.27.2.3
+pyparsing              3.3.2
+pypdfium2              5.8.0
+PyQt6                  6.11.0
+PyQt6-Qt6              6.11.1
+PyQt6_sip              13.11.1
+pytest                 9.0.3
+python-bidi            0.6.10
+python-dateutil        2.9.0.post0
+python-doctr           1.0.1
+python-docx            1.2.0
+pytz                   2026.2
+PyYAML                 6.0.3
+RapidFuzz              3.14.5
+rarfile                4.2
+reportlab              4.5.1
+requests               2.34.2
+rich                   15.0.0
+ruamel.yaml            0.19.1
+safetensors            0.7.0
+scikit-image           0.26.0
+scipy                  1.17.1
+setuptools             70.2.0
+shapely                2.1.2
+shellingham            1.5.4
+six                    1.17.0
+soupsieve              2.8.4
+sympy                  1.14.0
+termcolor              3.3.0
+tifffile               2026.3.3
+torch                  2.11.0+cpu
+torchvision            0.26.0+cpu
+tqdm                   4.67.3
+typer                  0.25.1
+typing_extensions      4.15.0
+typing-inspection      0.4.2
+tzdata                 2026.2
+ujson                  5.12.1
+urllib3                2.7.0
+validators             0.35.0
+visualdl               2.5.3
+wcwidth                0.7.0
+Werkzeug               3.1.8
+
+Doctr v1.0.1
